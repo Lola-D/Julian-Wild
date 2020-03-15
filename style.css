@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Ultra&display=swap');
+@font-face {
+    font-family: "roboto";
+    src: url("Fonts/roboto/Roboto-Regular.ttf")
+}
+
+@font-face {
+    font-family: "rambler";
+    src: url("Fonts/the_rambler/The Rambler.ttf")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        width: 100%;
+    }
+}

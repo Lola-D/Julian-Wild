@@ -1,0 +1,150 @@
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+}
+
+div#slider {
+    overflow: hidden;
+}
+
+div#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 25s slidy infinite;
+}
+
+#slider {
+    position: relative;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-items {
+    align-self: center;
+    padding: 10px 20px;
+}
+
+.social {
+    padding: 50px 20px;
+}
+
+.social a {
+    padding: 0 12px;
+}
+
+.social img {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: color 0.3s;
+}
+
+.social img:hover {
+    opacity: 0.5;
+}
+
+.nav-bar {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: 'roboto';
+    height: 100px;
+    width: 100%;
+    z-index: 999;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(54, 54, 54, 0.5) 50%, rgba(28, 28, 28, 0))
+}
+
+.scrol ul {
+    display: none;
+    list-style-type: none;
+    margin: 0px;
+    background: rgba(255, 255, 255, 0.336);
+    margin-top: 34px;
+}
+
+.scrol li {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+.menu-bio {
+    border-right: solid 1px #fff;
+}
+
+.country ul {
+    width: 10%;
+}
+
+.country {
+    display: flex;
+    border-right: solid 1px #fff;
+}
+
+.country:hover,
+.menu-items:hover {
+    background: rgba(255, 255, 255, 0.336);
+}
+
+.gg-chevron-down {
+    color: #FFFFFF;
+    margin-left: 3px;
+}
+
+.country li:hover {
+    background-color: rgba(255, 255, 255, 0.336);
+}
+
+.country a:hover {
+    color: #fff;
+}
+
+.scrol li:hover ul {
+    display: block;
+    position: absolute;
+    z-index: 101;
+}
+
+.photograph {
+    font-size: 70px !important;
+    font-family: 'rambler';
+}

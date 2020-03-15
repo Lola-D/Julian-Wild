@@ -1,0 +1,29 @@
+.biography {
+    background-image: url('ImagesPages/biography/drew-hays-Kt8eGw8_S8Y-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-bio {
+    border-left: solid 5px #fff;
+    color: #FFF;
+    margin-top: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+    letter-spacing: 0.1em;
+}
+
+.text-bio {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    font-family: 'roboto';
+    line-height: 2rem;
+    font-size: 1em;
+    text-align: justify;
+    color: #FFF
+}
+
+.second-p {
+    margin-top: 20px;
+}
