@@ -86,7 +86,7 @@ header a {
     justify-content: space-between;
     align-items: center;
     padding-left: 30px;
-    font-size: 20px;
+    font-size: 1.2em;
     font-family: 'roboto';
     height: 100px;
     width: 100%;
@@ -98,7 +98,6 @@ header a {
     display: none;
     list-style-type: none;
     margin: 0px;
-    background: rgba(255, 255, 255, 0.336);
     margin-top: 34px;
 }
 
@@ -130,21 +129,25 @@ header a {
     margin-left: 3px;
 }
 
+.country ul li {
+    font-size: 0.8em;
+}
+
 .country li:hover {
-    background-color: rgba(255, 255, 255, 0.336);
+    text-decoration: solid 1px #FFF;
 }
 
 .country a:hover {
-    color: #fff;
+    color: rgb(88, 88, 88);
 }
 
 .scrol li:hover ul {
-    display: block;
+    display: flex;
     position: absolute;
     z-index: 101;
 }
 
 .photograph {
-    font-size: 70px !important;
+    font-size: 4em;
     font-family: 'rambler';
 }

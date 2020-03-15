@@ -60,14 +60,6 @@ textarea {
     margin-top: 0.4em;
 }
 
-.form-label {
-    display: none;
-}
-
-.form[type=checkbox] {
-    display: none;
-}
-
 .button-contact:hover {
     border: none;
     color: #FFFFFF;
@@ -92,36 +84,38 @@ textarea:focus {
     box-shadow: none;
 }
 
+#checkbox,
+.form-label {
+    display: none;
+}
+
 
 /* FIN VERSION DESKTOP */
 
 
 /* MOBILE VERSION FORMULAIRE CSS */
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 770px) {
     .form,
     textarea,
     .button-contact {
         font-size: 14px;
-        width: 80%;
-    }
-    textarea {
-        height: 100px;
     }
     .button-contact {
-        height: 50px;
-        padding: 0px;
-        display: inline-block;
         font-size: 18px;
-        border: 2px solid #009DA5;
     }
     .form-label {
         width: 100%;
-        display: block;
     }
-    .form[type=checkbox] {
-        box-shadow: none;
-        width: 5%;
+    #checkbox,
+    .form-label {
+        display: inline;
+    }
+    .checkbox {
+        margin-top: 20px;
+        color: #FFFFFF;
+        font-size: 0.8em;
+        font-family: 'roboto';
     }
 }
 
