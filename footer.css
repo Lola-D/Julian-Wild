@@ -113,7 +113,7 @@ footer {
 }
 
 @media only screen and (max-width: 770px) {
-    footer {
+    .main-footer {
         display: none;
     }
 }

@@ -78,7 +78,8 @@
         grid-template-columns: auto auto;
     }
     .modal,
-    .modal-content {
+    .modal-content,
+    .close {
         display: none;
     }
 }
