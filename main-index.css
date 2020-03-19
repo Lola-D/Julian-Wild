@@ -8,6 +8,7 @@
     }
     .grid figure {
         margin: 3% 0 !important;
+        max-width: 100% !important;
     }
 }
 
@@ -34,7 +35,7 @@
     overflow: hidden;
     margin: 1%;
     min-width: 320px;
-    max-width: 500px;
+    max-width: 50%;
     max-height: 360px;
     width: 48%;
     background: #3085a3;
