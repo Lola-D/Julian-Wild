@@ -96,6 +96,9 @@ textarea:focus {
 /* MOBILE VERSION FORMULAIRE CSS */
 
 @media screen and (max-width: 770px) {
+    .formulairediv {
+        width: 90%;
+    }
     .form,
     textarea,
     .button-contact {

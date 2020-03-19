@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="headers.css">
     <link rel="stylesheet" href="nav-index.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="dynamic.css">
     <link href='https://css.gg/arrow-up-r.css' rel='stylesheet'>
     <link href='https://css.gg/heart.css' rel='stylesheet'>
     <link href='https://css.gg/instagram.css' rel='stylesheet'>
     <link href='https://css.gg/chevron-down.css' rel='stylesheet'>
+    <link href='https://css.gg/moon.css' rel='stylesheet'>
     <title>Brasil</title>
 </head>
 
@@ -64,10 +66,11 @@
             </div>
         </nav>
         <div id="baner" class="brasil">
-            <h1>BRASIL</h1>
+            <h1 class="tit_count">BRASIL</h1>
         </div>
     </header>
     <main>
+        <input id="toggler" class="switch" type="checkbox">
         <div class="text">
             <h2 id="text1" class="title-country">Quick story</h2>
             <p id="text2" class="text-country">An old Portuguese colony in the middle of South America, located next to Venezuela and Colombia, Brazil is considered an advanced emerging economy. Well known for his famous carnival at Rio, it got a lot of cultural diversity, mixing a lot
@@ -131,7 +134,7 @@
                 <input class="email-footer" type="text" name="email" placeholder="Your email" required>
                 <button class="button-footer">Sign me up</button>
             </form>
-            <div>
+            <div class="top">
                 <a class="top-footer" href="#top"><i class="gg-arrow-up-r"></i></a>
             </div>
         </div>
@@ -142,12 +145,7 @@
             </p>
         </div>
     </footer>
-    <script>
-        function onClick(element) {
-            document.getElementById("img01").src = element.src;
-            document.getElementById("modal01").style.display = "block";
-        }
-    </script>
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/7fbc2f72d3.js" crossorigin="anonymous"></script>
 </body>
 

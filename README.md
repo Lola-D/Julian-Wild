@@ -20,7 +20,7 @@
 
 * HTML
 * CSS
-* Javascript
+* Javascript - modal & dark mode
 
 ## Fonctionnalités 
 

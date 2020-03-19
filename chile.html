@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="headers.css">
     <link rel="stylesheet" href="nav-index.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="dynamic.css">
     <link href='https://css.gg/arrow-up-r.css' rel='stylesheet'>
     <link href='https://css.gg/heart.css' rel='stylesheet'>
     <link href='https://css.gg/instagram.css' rel='stylesheet'>
@@ -64,10 +65,12 @@
             </div>
         </nav>
         <div id="baner" class="chile">
-            <h1>CHILE</h1>
+            <h1 class="tit_count">CHILE</h1>
         </div>
     </header>
     <main>
+        <input id="toggler" class="switch" type="checkbox">
+
         <div class="text">
             <h2 id="text1" class="title-country">Quick story</h2>
             <p id="text2" class="text-country">This Latin country is situated next to Bolivia and Peru, as an old Spanish colony, cultural diversity is really present to in this place. It’s an old dictatorship like Cuba and is now one of the most stable economy and social nations in South
@@ -142,12 +145,7 @@
             </p>
         </div>
     </footer>
-    <script>
-        function onClick(element) {
-            document.getElementById("img01").src = element.src;
-            document.getElementById("modal01").style.display = "block";
-        }
-    </script>
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/7fbc2f72d3.js" crossorigin="anonymous"></script>
 </body>
 

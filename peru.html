@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="headers.css">
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="dynamic.css">
     <link href='https://css.gg/arrow-up-r.css' rel='stylesheet'>
     <link href='https://css.gg/heart.css' rel='stylesheet'>
     <link href='https://css.gg/instagram.css' rel='stylesheet'>
@@ -64,10 +65,11 @@
             </div>
         </nav>
         <div id="baner" class="peru">
-            <h1>PERU</h1>
+            <h1 class="tit_count">PERU</h1>
         </div>
     </header>
     <main>
+        <input id="toggler" class="switch" type="checkbox">
         <div class="text">
             <h2 id="text1" class="title-country">Quick story</h2>
             <p id="text2" class="text-country">Located near Colombia and Brazil, The Peru is the 19th largest country in the world and the third largest in South America. It was home of several ancient cultures and by this fact has now a lot of cultural diversity, from Spanish Native to
@@ -143,12 +145,7 @@
             </p>
         </div>
     </footer>
-    <script>
-        function onClick(element) {
-            document.getElementById("img01").src = element.src;
-            document.getElementById("modal01").style.display = "block";
-        }
-    </script>
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/7fbc2f72d3.js" crossorigin="anonymous"></script>
 </body>
 
