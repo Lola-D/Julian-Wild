@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>Contact</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="headers.css">
     <link rel="stylesheet" type="text/css" href="maincontact.css">
     <link rel="stylesheet" href="nav-index.css">
@@ -15,15 +13,12 @@
     <link href='https://css.gg/heart.css' rel='stylesheet'>
     <link href='https://css.gg/instagram.css' rel='stylesheet'>
     <link href='https://css.gg/chevron-down.css' rel='stylesheet'>
+    <link href='https://css.gg/check.css' rel='stylesheet'>
+    <link href='https://css.gg/close.css' rel='stylesheet'>
     <title>Contact</title>
 </head>
-<!-- NAV BAR A AJOUTER -->
-
-<!-- HEADER A AJOUTER -->
-
 <body class="body-contact">
     <header>
-
         <nav class="nav-bar">
             <a href="index.html" class="photograph">Julian Wild</a>
             <div class="menu">
@@ -72,24 +67,31 @@
             <h1 class="tit_contactde">CONTACT ME</h1>
         </div>
     </header>
-
-    <!-- FORMULAIRE -->
     <main classe="main-contact">
-
-        <form method="GET" action="thankyou.html" class="formulairediv">
+        <form class="formulairediv">
             <input type="text" name="first" id="first" class="form" placeholder="First name" required>
             <input type="text" name="last" id="last" class="form" placeholder="Last name" required>
             <input type="email" name="email" id="email" class="form" placeholder="Email" required>
             <textarea name="message" id="message" placeholder="Message" required></textarea>
-            <button class="button-contact">Send</button>
+            <a href="#modal2" class="button-contact js-modal">Send</a>
+            
+            
+            
+            <aside id="modal2" class="modal-form" aria-hidden="true" role="dialog" aria-labelledby="message-modal" style="display:none;">
+                <div class="modal-wrapper">
+                    <i class="gg-check"></i>
+                    <p id="message-modal">Thank you! Your message was succesfully sent!</p>
+                </div>
+            </aside>
+            
+            
+            
             <div class="checkbox">
                 <input type="checkbox" name="checkbox" id="checkbox">
                 <label for="checkbox" class="form-label">Sign up to the newsletter</label>
             </div>
         </form>
-
     </main>
-    <!-- FIN DU FORMULAIRE -->
     <footer class="light-footer">
         <div class="main-footer">
             <div class="icon-footer">
@@ -113,6 +115,6 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/7fbc2f72d3.js" crossorigin="anonymous"></script>
+    <script src="contact.js"></script>
 </body>
-
 </html>
