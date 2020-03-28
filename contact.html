@@ -1,78 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Contact</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../_css/headers.css">
-    <link rel="stylesheet" href="../_css/main-biography.css">
-    <link rel="stylesheet" href="../_css/nav-index.css">
-    <link rel="stylesheet" href="../_css/style.css">
-    <link rel="stylesheet" href="../_css/footer.css">
+    <link rel="stylesheet" href="headers.css">
+    <link rel="stylesheet" href="maincontact.css">
+    <link rel="stylesheet" href="nav-index.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="style.css">
     <link href='https://css.gg/arrow-up-r.css' rel='stylesheet'>
     <link href='https://css.gg/heart.css' rel='stylesheet'>
     <link href='https://css.gg/instagram.css' rel='stylesheet'>
     <link href='https://css.gg/chevron-down.css' rel='stylesheet'>
-    <title>Biography</title>
+    <link href='https://css.gg/check.css' rel='stylesheet'>
+    <link href='https://css.gg/close.css' rel='stylesheet'>
+    <title>Contact</title>
 </head>
-<body class="biography">
+<body class="body-contact">
     <header>
         <nav class="nav-bar">
-            <a href="../index.html" class="photograph">Julian Wild</a>
+            <a href="index.html" class="photograph">Julian Wild</a>
             <div class="menu">
                 <div class="scrol">
                     <li class="country"><a href="#">Country</a><i class="gg-chevron-down"></i>
                         <ul>
-                            <li><a href="../_html/brazil.html">Brazil</a></li>
-                            <li><a href="../_html/chile.html">Chile</a></li>
-                            <li><a href="../_html/mexico.html">Mexico</a></li>
-                            <li><a href="../_html/peru.html">Peru</a></li>
+                            <li><a href="brazil.html">Brazil</a></li>
+                            <li><a href="chile.html">Chile</a></li>
+                            <li><a href="mexico.html">Mexico</a></li>
+                            <li><a href="peru.html">Peru</a></li>
                         </ul>
                     </li>
                 </div>
-                <a href="../_html/biography.html" class="menu-items menu-bio">Biography</a>
-                <a href="../_html/contact.html" class="menu-items">Contact</a>
+                <a href="biography.html" class="menu-items menu-bio">Biography</a>
+                <a href="contact.html" class="menu-items">Contact</a>
             </div>
             <div class="social">
-                <a href="#" title="Instagram"><img src="../Logos/instagram.svg" width="25px" height="25px"></a>
-                <a href="#" title="Pinterest"><img src="../Logos/pinterest.svg" width="25px" height="25px"></a>
+                <a href="#" title="Instagram"><img src="Logos/instagram.svg" width="25px" height="25px"></a>
+                <a href="#" title="Pinterest"><img src="Logos/pinterest.svg" width="25px" height="25px"></a>
             </div>
         </nav>
         <nav class="nav-bar-resp">
             <div class="conteneur-nav">
                 <div class="menu-resp">
-                    <a href="../index.html" class="photograph">Julian Wild</a>
+                    <a href="index.html" class="photograph">Julian Wild</a>
                     <label for="mobile">Menu<i class="gg-chevron-down"></i></label>
                 </div>
                 <input class="input-resp" type="checkbox" id="mobile" role="button">
                 <ul class="ul-resp">
                     <ul class="ul-resp sous">
-                        <li><a href="../_html/brazil.html">Brazil</a></li>
-                        <li><a href="../_html/chile.html">Chile</a></li>
-                        <li><a href="../_html/mexico.html">Mexico</a></li>
-                        <li><a href="../_html/peru.html">Peru</a></li>
+                        <li><a href="brazil.html">Brazil</a></li>
+                        <li><a href="chile.html">Chile</a></li>
+                        <li><a href="mexico.html">Mexico</a></li>
+                        <li><a href="peru.html">Peru</a></li>
                     </ul>
                     <ul class="ul-resp sous">
-                        <li><a href="../_html/biography.html">Biography</a></li>
-                        <li><a href="../_html/contact.html">Contact</a></li>
+                        <li><a href="biography.html">Biography</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                         <li><a class="pinterest-resp" href=" https://www.pinterest.com.au/ " target="_blank "><i class="fab fa-pinterest-square "></i></a></li>
                         <li><a class="instagram-resp" href="https://www.instagram.com/" target="_blank"><i class="gg-instagram"></i></a></li>
                     </ul>
                 </ul>
             </div>
         </nav>
-    </header>
-    <div id="baner" class="bio">
-        <h1 class="tit_biode">WHO AM I?</h1>
-    </div>
-    <main>
-        <div class="text-bio">
-            <h2 class="title-bio">Photographer, passionate, professional</h2>
-            <p>Hey, like you can see I’m not the typical type of guy you see with a camera! I love to travel in America, especially in the South. Born and raised by all my brothers and sisters, a tourist left his camera near our stash. Since that day, I
-                developed a real passion for photography and now I want to share it with people !</p>
-            <p class="other-p">I love to travel and discover new places, meet new people, habitat and cities. That was my dream when I was younger and now it became reality. It’s a pleasure to have this opportunity and to share it with you. Have fun browsing my site, made
-                with all my little heart !</p>
-            <p class="other-p">I also regularly work for famous brands or cultural campaigns. I have given conferences and have been chosen as an ambassador for big companies. I am an author for a French magazine and occasionally write papers for other photography magazines.</p>
+        <div id="baner" class="contact">
+            <h1 class="tit_contactde">CONTACT ME</h1>
         </div>
+    </header>
+    <main classe="main-contact">
+        <form class="formulairediv">
+            <input type="text" name="first" id="first" class="form" placeholder="First name" required>
+            <input type="text" name="last" id="last" class="form" placeholder="Last name" required>
+            <input type="email" name="email" id="email" class="form" placeholder="Email" required>
+            <textarea name="message" id="message" placeholder="Message" required></textarea>
+            <a href="#modal2" class="button-contact js-modal">Send</a>
+            <aside id="modal2" class="modal-form" aria-hidden="true" role="dialog" aria-labelledby="message-modal" style="display:none;">
+                <div class="modal-wrapper">
+                    <i class="gg-check"></i>
+                    <p id="message-modal">Thank you! Your message was succesfully sent!</p>
+                </div>
+            </aside>
+            <div class="checkbox">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox" class="form-label">Sign up to the newsletter</label>
+            </div>
+        </form>
     </main>
     <footer class="light-footer">
         <div class="main-footer">
@@ -97,5 +109,6 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/7fbc2f72d3.js" crossorigin="anonymous"></script>
+    <script src="contact.js"></script>
 </body>
 </html>
