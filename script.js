@@ -14,15 +14,37 @@ function onClick(element) {
     document.getElementById("modal01").style.display = "block";
 }
 
-var colors = ["#F8C364", "#ef7858", "#9cbdbe", "#2B7377"]
-var currentColor = 0
-var lis = document.querySelectorAll(".text h2")
+let colors = ["#F8C364", "#ef7858", "#9cbdbe", "#2B7377"]
+let currentColor = 0
+let lis = document.querySelectorAll(".text h2")
 
 function changeColor() {
     --currentColor
     if (currentColor < 0) currentColor = colors.length - 1
-    for (var i = 0; i < lis.length; i++) {
+    for (let i = 0; i < lis.length; i++) {
         lis[i].style.borderLeftColor = colors[(currentColor + i) % colors.length]
     }
 }
 setInterval(changeColor, 1000)
+
+const ratio = .2
+const options = {
+    root: null,
+    rootMargin: '0px',
+    threshold : ratio
+}
+
+const handleIntersect = function (entries, observer) {
+    entries.forEach(function(entry) {
+        if (entry.intersectionRatio > ratio) {
+            entry.target.classList.add('reveal-visible')
+            observer.unobserve(entry.target)
+        }
+    })
+    
+}
+
+const observer = new IntersectionObserver(handleIntersect, options)
+document.querySelectorAll('.reveal').forEach(function(r) {
+    observer.observe(r)
+})
