@@ -50,14 +50,14 @@ footer {
 .button-footer:hover {
     border: none;
     color: #FFFFFF;
-    background-color: #009DA5;
+    background-color: #6e6e6e;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
 }
 
 .button-footer:focus {
     color: #FFFFFF;
-    background-color: rgba(0, 157, 165, 0.342);
+    background-color: #6e6e6e8e;
     box-shadow: none;
     outline: none;
     border: none;

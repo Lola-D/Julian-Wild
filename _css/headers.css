@@ -5,19 +5,19 @@
 }
 
 #baner.brasil {
-    background: no-repeat center center / cover url("ImagesPages/title_resized/dessert-74568_1920.jpg");
+    background: no-repeat center center / cover url("../ImagesPages/title_resized/dessert-74568_1920.jpg");
 }
 
 #baner.chile {
-    background: no-repeat center center / cover url("ImagesPages/title_resized/chile-693065.jpg");
+    background: no-repeat center center / cover url("../ImagesPages/title_resized/chile-693065.jpg");
 }
 
 #baner.mexico {
-    background: no-repeat center center / cover url("ImagesPages/title_resized/landscape-695030.jpg");
+    background: no-repeat center center / cover url("../ImagesPages/title_resized/landscape-695030.jpg");
 }
 
 #baner.peru {
-    background: no-repeat center center / cover url("ImagesPages/title_resized/peru-2532604.jpg");
+    background: no-repeat center center / cover url("../ImagesPages/title_resized/peru-2532604.jpg");
 }
 
 .tit_contactde,
