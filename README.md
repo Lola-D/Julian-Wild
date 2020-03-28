@@ -20,7 +20,7 @@
 
 * HTML
 * CSS
-* Javascript - modal & dark mode
+* Javascript - modals pages galeries et contact, apparition au scroll pages index et galeries, couleurs alternatives border h2 pages pays & dark mode
 
 ## Fonctionnalités 
 
